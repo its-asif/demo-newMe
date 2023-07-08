@@ -116,3 +116,25 @@ main{
     font-size: 20px;
     font-weight: 700px;
 }
+
+
+.banner{
+    margin: auto 30px;
+    background-image: url(images/gradient2.png),url(images/watch.png);
+    background-repeat: no-repeat;
+    padding: 50px;
+    border-radius: 5px;
+    background;
+}
+
+.banner h1{
+    width: 50%;
+    color: white;
+    font-size: 40px;
+}
+
+.callNow-btn{
+    margin-top: 10px;
+    background-color: white;
+    color: #F15B22;
+}
