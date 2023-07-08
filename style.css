@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 809px;
+    max-width: 1600px;
+    background-image: url(images/banner/banner2.png);
+    /* background-size: 800px; */
+    background-repeat: none;
+    display: flex;
+    justify-content: right;
+}
+
+.primary-btn{
+    background-color: #F15B22;
+    padding: 10px 20px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.contact{
+    max-width: 525px;
+    margin: auto 100px;
+    /* width: 30%; */
+    /* margin: auto 20% auto 50%; */
+}
+.contact-title{
+    margin: 10px;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: right;
+}
+.contact-text{
+    color: #444343;
+    text-align: right;
+    margin: 10px;
+}
+.contact-btn{
+    display: block;
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: auto;
+}
