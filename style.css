@@ -70,6 +70,7 @@ main{
 .failure-title{
     font-size: 40px;
     margin-bottom: 20px;
+    color: black;
 }
 .failure-text{
     font-size: 18px;
