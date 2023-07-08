@@ -27,8 +27,6 @@ header{
 .contact{
     max-width: 525px;
     margin: auto 100px;
-    /* width: 30%; */
-    /* margin: auto 20% auto 50%; */
 }
 .contact-title{
     margin: 10px;
@@ -92,7 +90,7 @@ main{
 
 .myPlan{
     text-align: center;
-    margin: 200px auto;
+    margin: 100px auto;
 }
 .myPlan-title{
     margin: 60px auto;
@@ -117,14 +115,13 @@ main{
     font-weight: 700px;
 }
 
-
+/* Banner Section */
 .banner{
     margin: auto 30px;
     background-image: url(images/gradient2.png),url(images/watch.png);
     background-repeat: no-repeat;
     padding: 50px;
     border-radius: 5px;
-    background;
 }
 
 .banner h1{
@@ -137,4 +134,53 @@ main{
     margin-top: 10px;
     background-color: white;
     color: #F15B22;
+}
+
+/* Footer Section */
+
+footer{
+    background-color:#151414;
+    height: 500px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.footer-container{
+    display: flex;
+    padding: 50px;
+    color: wheat;
+}
+.footer-col{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.future-col{
+
+}
+.footer-title{
+    margin-bottom: 20px;
+}
+.footer-description{
+
+}
+.icons{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.subcribe-colmumn{
+    margin-left: 100px;
+}
+.subcribe-colmumn h2{
+    font-size: 30px;
+}
+.subscribe-email{
+    margin: 20px auto;
+    border-color: white;
+    border-radius: 10px;
+    background-color: #151414;
+    padding: 10px 20px;
+    max-width: 250px;
+    font-size: 18px;
 }
