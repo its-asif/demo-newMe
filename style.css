@@ -67,7 +67,7 @@ main{
     padding: 50px 80px;
 }
 .failure-img{
-    height: 700px;
+    height: 100%;
 }
 .failure-title{
     font-size: 40px;
@@ -86,4 +86,33 @@ main{
     font-size: 16px;
     font-weight: lighter;
     color: #444343ce;
+}
+
+/* My Plan Part */
+
+.myPlan{
+    text-align: center;
+    margin: 200px auto;
+}
+.myPlan-title{
+    margin: 60px auto;
+    font-size: 50px;
+}
+.myPlan-container{
+    display: flex;
+    justify-content: space-between;
+}
+.quaColumn{
+    width: 25%;
+}
+.plan-img{
+    
+}
+.plan-title{
+    margin: 10px auto;
+    font-size: 25px;
+}
+.plan-description{
+    font-size: 20px;
+    font-weight: 700px;
 }
